@@ -17,7 +17,7 @@ counter3 = 0
 
 question_db = read_json("Questions.json")
 
-channelIDs = [ 8979787696969687687998 ]
+channelIDs = [ ]
 
 class responseThread (threading.Thread):
    def __init__(self):
